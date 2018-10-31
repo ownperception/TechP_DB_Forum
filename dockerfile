@@ -35,8 +35,7 @@ ADD ./ $GOPATH/src/github.com/ownperception/TechP_DB_Forum/
 
 RUN go get \
     github.com/gorilla/mux \
-    github.com/lib/pq \
-    github.com/ownperception/TechP_DB_Forum
+    github.com/lib/pq
 
 # Собираем пакет
 RUN go build ./main.go

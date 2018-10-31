@@ -1,4 +1,4 @@
-package modules
+package middlefunc
 
 import (
 	"database/sql"

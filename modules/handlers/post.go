@@ -10,7 +10,7 @@ import (
 
 	"github.com/gorilla/mux"
 	types "github.com/ownperception/TechP_DB_Forum/apiDB/models"
-	mod "github.com/ownperception/TechP_DB_Forum/apiDB/modules"
+	mod "github.com/ownperception/TechP_DB_Forum/apiDB/modules/middlefunc"
 )
 
 func PostInfo(w http.ResponseWriter, r *http.Request, db *sql.DB) {
