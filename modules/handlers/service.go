@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	mod "apiDB/modules"
+	mod "github.com/ownperception/TechP_DB_Forum/apiDB/modules"
 	"database/sql"
 	"encoding/json"
 	"fmt"

@@ -1,9 +1,6 @@
 package main
 
 import (
-	mid "apiDB/modules"
-	hand "apiDB/modules/handlers"
-	idb "apiDB/modules/initDB"
 	"database/sql"
 	"fmt"
 	"log"
@@ -11,6 +8,9 @@ import (
 
 	"github.com/gorilla/mux"
 	_ "github.com/lib/pq"
+	mid "github.com/ownperception/TechP_DB_Forum/apiDB/modules"
+	hand "github.com/ownperception/TechP_DB_Forum/apiDB/modules/handlers"
+	idb "github.com/ownperception/TechP_DB_Forum/apiDB/modules/initDB"
 )
 
 var db *sql.DB

@@ -1,10 +1,11 @@
 package modules
 
 import (
-	mod "apiDB/models"
 	"encoding/json"
 	"io/ioutil"
 	"net/http"
+
+	mod "github.com/ownperception/TechP_DB_Forum/apiDB/models"
 )
 
 func Jsonparams(r *http.Request) (map[string]string, error) {
