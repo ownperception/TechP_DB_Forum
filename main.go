@@ -8,9 +8,9 @@ import (
 
 	"github.com/gorilla/mux"
 	_ "github.com/lib/pq"
-	hand "github.com/ownperception/TechP_DB_Forum/apiDB/modules/handlers"
-	idb "github.com/ownperception/TechP_DB_Forum/apiDB/modules/initDB"
-	mid "github.com/ownperception/TechP_DB_Forum/apiDB/modules/middlefunc"
+	hand "github.com/ownperception/TechP_DB_Forum/modules/handlers"
+	idb "github.com/ownperception/TechP_DB_Forum/modules/initDB"
+	mid "github.com/ownperception/TechP_DB_Forum/modules/middlefunc"
 )
 
 var db *sql.DB

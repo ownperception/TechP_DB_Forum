@@ -1,13 +1,13 @@
 package handlers
 
 import (
-	mod "github.com/ownperception/TechP_DB_Forum/apiDB/modules/middlefunc"
 	"database/sql"
 	"encoding/json"
 	"fmt"
 	"net/http"
 
 	"github.com/gorilla/mux"
+	mod "github.com/ownperception/TechP_DB_Forum/modules/middlefunc"
 )
 
 func Service(w http.ResponseWriter, r *http.Request, db *sql.DB) {

@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"io/ioutil"
 
-	mid "github.com/ownperception/TechP_DB_Forum/apiDB/modules"
+	mid "github.com/ownperception/TechP_DB_Forum/modules"
 )
 
 func InitDB() *sql.DB {
