@@ -1,0 +1,4 @@
+user=postgres
+password=admin
+dbname=forum 
+sslmode=disable

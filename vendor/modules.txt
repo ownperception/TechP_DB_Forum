@@ -1,0 +1,7 @@
+# github.com/gorilla/context v1.1.1
+github.com/gorilla/context
+# github.com/gorilla/mux v1.6.2
+github.com/gorilla/mux
+# github.com/lib/pq v1.0.0
+github.com/lib/pq
+github.com/lib/pq/oid
