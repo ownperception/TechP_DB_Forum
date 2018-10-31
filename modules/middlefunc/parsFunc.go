@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	mod "github.com/ownperception/TechP_DB_Forum/apiDB/models"
+	mod "github.com/ownperception/TechP_DB_Forum/models"
 )
 
 func Jsonparams(r *http.Request) (map[string]string, error) {
