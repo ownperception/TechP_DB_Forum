@@ -1,6 +1,6 @@
 drop table if exists author, post, thread, forum, vote cascade;  
 
-drop type tvote;
+drop type if exists tvote;
 
 drop function if exists vote_insert() cascade;
 drop function if exists vote_update() cascade;

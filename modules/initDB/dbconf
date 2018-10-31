@@ -1,4 +1,4 @@
-user=postgres
-password=admin
-dbname=forum 
+user=docker
+password=docker
+dbname=docker
 sslmode=disable

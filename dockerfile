@@ -33,6 +33,11 @@ ENV PATH $GOROOT/bin:$GOPATH/bin:/usr/local/go/bin:$PATH
 WORKDIR $GOPATH/src/github.com/ownperception/TechP_DB_Forum/
 ADD ./ $GOPATH/src/github.com/ownperception/TechP_DB_Forum/
 
+# Подтягиваем зависимости
+RUN go get \
+    github.com/lib/pq \
+    github.com/gorilla/mux
+
 # Собираем пакет
 RUN go build ./main.go
 
