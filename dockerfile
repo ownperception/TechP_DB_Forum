@@ -36,12 +36,10 @@ ADD ./ $GOPATH/src/github.com/ownperception/TechP_DB_Forum/
 # Подтягиваем зависимости
 RUN go get \
     github.com/lib/pq \
-    github.com/gorilla/mux \
-    github.com/ownperception/TechP_DB_Forum
+    github.com/gorilla/mux
 
 # Собираем пакет
-RUN go build ./main.go
-
+RUN go install .
 EXPOSE 5000
 
 
@@ -60,5 +58,5 @@ RUN /etc/init.d/postgresql start &&\
 EXPOSE 5000
 
 
-CMD service postgresql start &&\
-./main
+CMD service postgresql start &&\ 
+TechP_DB_Forum
