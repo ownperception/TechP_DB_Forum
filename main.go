@@ -34,7 +34,7 @@ func main() {
 	r.Handle("/user/{nickname}/profile", &mid.DbHandler{Handle: hand.UserGet, Db: db}).Methods("GET")
 
 	router := http.NewServeMux()
-	router.Handle("/app", mid.UrlMiddleware(r))
+	router.Handle("/api", mid.UrlMiddleware(r))
 
 	fmt.Println("starting server at :5000")
 	log.Fatal(http.ListenAndServe(":5000", router))
